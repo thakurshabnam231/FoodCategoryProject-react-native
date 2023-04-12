@@ -13,7 +13,7 @@ const MealsDetailScreen=({route,navigation})=>{
     const selectedMeal=MEALS.find((meal)=>meal.id===mealId)
 
     function handleButtonPress(){
-console.log("presssed")
+
     }
     useLayoutEffect(()=>{
         navigation.setOptions({
